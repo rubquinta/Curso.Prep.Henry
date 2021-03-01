@@ -95,9 +95,9 @@ function mayorQueCincuenta(num) {
     // De lo contrario, devuelve "false"
     // Tu código:
     if (num > 50) {
-        return true;
-    } else {
         return false;
+    } else {
+        return true;
     }
 }
 
@@ -112,9 +112,9 @@ function esPar(num) {
     // De lo contrario, devuelve "false"
     // Tu código:
     if (num % 2 == 0) {
-        return true;
-    } else {
         return false;
+    } else {
+        return true;
     }
 }
 
@@ -203,8 +203,8 @@ function obtenerSaludo(nombre) {
     // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
     // "Martin" -> "Hola Martin!"
     // Tu código:
-    let hola = "Hola";
-    return hola.concat(" " + nombre + "!");
+    let hola = 'Hola';
+    return hola.concat(' ' + nombre + '!');
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
